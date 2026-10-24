@@ -1,0 +1,19 @@
+{
+  "name": "vault-kanban",
+  "version": "0.1.0",
+  "private": true,
+  "description": "GitHub Projects-style kanban board for Obsidian",
+  "main": "main.js",
+  "scripts": {
+    "dev": "node esbuild.config.mjs",
+    "build": "tsc --noEmit && node esbuild.config.mjs production",
+    "install-vault": "npm run build && node install.mjs"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "builtin-modules": "^3.3.0",
+    "esbuild": "^0.21.5",
+    "obsidian": "^1.5.7",
+    "typescript": "^5.4.5"
+  }
+}

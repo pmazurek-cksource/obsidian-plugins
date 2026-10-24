@@ -1,0 +1,9 @@
+{
+  "id": "vault-kanban",
+  "name": "Vault Kanban",
+  "version": "0.1.0",
+  "minAppVersion": "1.5.0",
+  "description": "GitHub Projects-style kanban board stored as JSON in the vault, with daily archives.",
+  "author": "Piotr Mazurek",
+  "isDesktopOnly": false
+}
